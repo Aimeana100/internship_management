@@ -91,4 +91,12 @@ if(isset($_GET['delete_id']) && $_GET['delete_id'] != ""){
 }
 
 
+// Authenication
+
+if(isset($_POST['register'])){
+    // save to database
+    // create session for this user
+    // re direct to authenticated page (dashboard)
+}
+
 ?>

@@ -29,7 +29,11 @@ $result = $conn->query("SELECT * FROM student");
             <li> <a href="index.php"> All data </a> </li>
             <li> <a href="add-student.php"> Add </a> </li>
 
-            <!-- <li>  <a href="">  </a> </li> -->
+            <li>  <a href="">  </a> </li>
+        </ul>
+
+        <ul>
+            <li> <a href="login.php"> Login </a> </li>
         </ul>
     </div>
 
